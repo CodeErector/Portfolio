@@ -1,0 +1,123 @@
+﻿@{
+    ViewData["Title"] = "Home";
+    Layout = "";
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hamza Afzal</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="~/css/stylesheet.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+
+    <!--Main-->
+    <div class="main vh-100">
+        <header>
+            <nav class="navbar fixed-top bg-transparent">
+                <div class="container">
+                    <a class="navbar-brand" href="#">LOGO</a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar">
+                        <span class="icon"></span>
+                    </button>
+                    <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar">
+                        <div class="offcanvas-header">
+                            <h5 class="offcanvas-title">MENU</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="offcanvas"></button>
+                        </div>
+                        <div class="offcanvas-body">
+                            <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                                <li class="nav-item">
+                                    <a class="nav-link active" asp-controller="Main" asp-action="Index">Home</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" asp-controller="" asp-action="Index">Education</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" asp-controller="" asp-action=" Index">Testimonials</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="../ContactDetails/Create">Contact Me</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+        </header>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-7 content">
+                    <p class="f50">HI, I Am</p>
+                    <h2>Hamza Afzal</h2>
+                    <p class="f50">What I do <font>DEVELOPING</font></p>
+                    <p class="stylish">Hamza Afzal</p>
+                    <p class="f80">Contact me</p>
+                </div>
+                <div class="bgbox"></div>
+                <div class="col-md-5">
+                    <img src="~/img/picture.png" alt="myPicture" class="myPicture">
+                </div>
+            </div>
+            <div class="icons">
+                <a href="https://www.instagram.com/"><i class="fa fa-instagram me-4"></i></a>
+                <a href="#"><i class="fa fa-whatsapp"></i></a>
+            </div>
+        </div>
+    </div>
+    <!--Info-->
+    <div class="info">
+        <div class="container">
+            <div class="col-md-4">
+                <a href="" class=""><img src="" alt=""></a>
+                <a href="" class=""><img src="" alt=""></a>
+                <a href="" class=""><img src="" alt=""></a>
+            </div>
+            <div class="col-md-8">
+                <p>MY EDUCATION</p>
+                <div class="">
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--Testimonials-->
+    <div class="testimonials">
+        <div class="container">
+            <h3>TESTIMONIALS</h3>
+            <p>What teh client say !</p>
+            <div class="">
+                <div class="col-md-5">
+                </div>
+                <div class="col-md-7">
+                    <h4>lorem ipsum</h4>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Suscipit ipsam, iure doloribus, tempore quidem exercitationem provident sit enim cumque laborum sequi voluptatibus voluptatum! Ipsa voluptatem, dolores eius alias ullam animi?</p>
+                    <div>svg</div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--Footer-->
+    <div class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-5">
+                    <font>Say Hello !</font>
+                </div>
+                <div class="col-md-7">
+                    <font>MAIL ham78625@gmail.com</font>
+                    <font>PHONE 03000000000</font>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--Scripts-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+</body>
+</html>
