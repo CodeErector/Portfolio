@@ -1,8 +1,18 @@
-@import url('https://fonts.googleapis.com/css2?family=Water+Brush&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Hurricane&display=swap');
 
 *{
     margin: 0;
     padding: 0;
+}
+p, h2{
+    font-family: Bahnschrift;
+}
+.hactive{
+    background-color: #fff !important;
+    box-shadow: black 0px 1px 5px;
+    border-radius: 50px;
+    margin-left: 20px;
+    margin-right: 20px;
 }
 .main{
     background-image: url("../img/background.png");
@@ -29,9 +39,6 @@
     margin-top: 9%;
     z-index: 1;
 }
-.main p, h2{
-    font-family: Bahnschrift;
-}
 .main h2{
     font-size: 72pt;
     font-weight: bold;
@@ -43,12 +50,13 @@
 .f80{
     font-size: 40pt;
     color: #E85D04;
+    margin-left: 30px;
 }
 .main font{
     color: #E85D04;
 }
 .stylish{
-    font-family: 'Water Brush', cursive !important;
+    font-family: 'Hurricane', cursive !important;
     font-size: 30pt;
 }
 .bgbox{
@@ -56,7 +64,7 @@
     height: 90px;
     background-color: black;
     position: absolute;
-    left: 0;
+    left: 5.5%;
     top: 425px;
 }
 .icons{
@@ -66,4 +74,75 @@
 }
 .icons a{
     color: black;
+}
+.info img{
+    width: 90%;
+}
+.row .mt{
+    margin-top: 7%;
+}
+.boxIcon{
+    background-color: #fff;
+    border: solid 1px grey;
+    border-radius: 10px;
+    padding: 15px;
+    margin-left: 5%;
+}
+.boxIconActive{
+    background-color: #fff;
+    box-shadow: black 0px 0px 3px;
+    border-radius: 10px;
+    padding: 15px;
+    margin-left: 5%;
+}
+.boxIcon>img, .boxIconActive>img{
+    width: 36px;
+}
+.boxContent{
+    background-color: #fff;
+    box-shadow: black 0px 0px 3px;
+    border-radius: 10px;
+    padding: 10px;
+    width: 550px;
+    height: 250px;
+}
+.info>.row{
+    --bs-gutter-x: 0;
+}
+
+.testimonials h2{
+    color: #E85D04;
+}
+
+.round{
+    border-radius: 100px;
+    width: 180px;
+    height: 180px;
+    background-color: black;
+}
+
+.newsletter{
+    background-color: #E85D04;
+}
+.newsletter .row{
+    display: flex;
+    align-items: center;
+    font-size: 16pt;
+    color: white;
+    
+}
+.newsletter .row p{
+    margin-bottom: 0;
+    text-align: center;
+    padding: 40px;
+    white-space: pre;
+}
+.newsletter .hello{
+    font-size: 35pt;
+}
+
+.footer{
+    background-color: #E85D04;
+    color: #fff;
+    padding: 40px 40px 50px 40px;
 }
