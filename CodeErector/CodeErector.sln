@@ -3,12 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.4.33122.133
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CodeErector", "CodeErector\CodeErector.csproj", "{933FF03B-8539-4A05-9262-D2252F04D620}"
-EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{DD2E2B25-AA43-422A-AAEF-D07BC20F3CDE}"
-	ProjectSection(SolutionItems) = preProject
-		.editorconfig = .editorconfig
-	EndProjectSection
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodeErector", "CodeErector.csproj", "{9F0AC80A-8738-423F-BAAB-5F84E47CA2C8}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -16,15 +11,15 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{933FF03B-8539-4A05-9262-D2252F04D620}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{933FF03B-8539-4A05-9262-D2252F04D620}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{933FF03B-8539-4A05-9262-D2252F04D620}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{933FF03B-8539-4A05-9262-D2252F04D620}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9F0AC80A-8738-423F-BAAB-5F84E47CA2C8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9F0AC80A-8738-423F-BAAB-5F84E47CA2C8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9F0AC80A-8738-423F-BAAB-5F84E47CA2C8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9F0AC80A-8738-423F-BAAB-5F84E47CA2C8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {E1B0E1F0-F730-47BD-8428-A6DCEB4FEC24}
+		SolutionGuid = {E38E22BF-C5B3-4527-98B5-9520B5D669EB}
 	EndGlobalSection
 EndGlobal
