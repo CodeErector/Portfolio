@@ -1,0 +1,35 @@
+﻿@model CodeErector.Models.ContactDetails
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+<div class="mx-3 mt-2">
+    <h1>Details</h1>
+    <h4>ContactDetails</h4>
+    <hr />
+    <dl class="row w-100">
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.CDate)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.CDate)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.CustName)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.CustName)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.massage)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.massage)
+        </dd>
+    </dl>
+</div>
+<div class="mx-3 mt-3">
+    <a asp-action="Edit" asp-route-id="@Model?.ContactId">Edit</a> |
+    <a asp-action="Index">Back to List</a>
+</div>

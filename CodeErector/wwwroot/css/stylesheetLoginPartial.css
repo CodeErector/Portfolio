@@ -4,16 +4,16 @@
     max-width: 500px;
 }
 
-input{
+input {
     border: none;
     border-bottom: thin solid white;
-    background-color: #5ED28D;
+    background-color: #E85D04;
 }
 
-textarea{
+textarea {
     border: none;
     border-bottom: thin solid white;
-    background-color: #5ED28D;
+    background-color: #E85D04;
 }
 
 input:focus{
