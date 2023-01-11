@@ -25,11 +25,14 @@
                                 <a class="nav-link" asp-controller="" asp-action="Index">Education</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" asp-controller="" asp-action=" Index">Testimonials</a>
+                                <a class="nav-link" asp-controller="" asp-action="Index">Testimonials</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="../ContactDetails/Create">Contact Me</a>
+                            <a class="nav-link" asp-controller="ContactDetailsController" asp-action="Create">Contact Me</a>
                             </li>
+                        <li class="nav-item">
+                            <a class="nav-link" asp-area="Identity" asp-page="/Account/Logout">Log Out</a>
+                        </li>
                         </ul>
                     </div>
                 </div>

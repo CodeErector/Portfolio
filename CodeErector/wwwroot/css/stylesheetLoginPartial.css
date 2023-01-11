@@ -1,0 +1,29 @@
+/* CSS Document specific*/
+
+.w{
+    max-width: 500px;
+}
+
+input{
+    border: none;
+    border-bottom: thin solid white;
+    background-color: #5ED28D;
+}
+
+textarea{
+    border: none;
+    border-bottom: thin solid white;
+    background-color: #5ED28D;
+}
+
+input:focus{
+    outline: none;
+}
+
+textarea:focus{
+    outline: none;
+}
+
+[placeholder]::-webkit-input-placeholder{
+    color: white;
+}

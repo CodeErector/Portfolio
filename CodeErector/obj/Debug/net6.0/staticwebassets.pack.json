@@ -9,6 +9,18 @@
       "PackagePath": "staticwebassets\\css\\stylesheet.css"
     },
     {
+      "Id": "D:\\My_Work\\my_portfolio\\asp.net_NEW\\CodeErector\\wwwroot\\css\\stylesheetLogin.css",
+      "PackagePath": "staticwebassets\\css\\stylesheetLogin.css"
+    },
+    {
+      "Id": "D:\\My_Work\\my_portfolio\\asp.net_NEW\\CodeErector\\wwwroot\\css\\stylesheetLoginPartial.css",
+      "PackagePath": "staticwebassets\\css\\stylesheetLoginPartial.css"
+    },
+    {
+      "Id": "D:\\My_Work\\my_portfolio\\asp.net_NEW\\CodeErector\\wwwroot\\css\\stylesheetSigninPartial.css",
+      "PackagePath": "staticwebassets\\css\\stylesheetSigninPartial.css"
+    },
+    {
       "Id": "D:\\My_Work\\my_portfolio\\asp.net_NEW\\CodeErector\\wwwroot\\favicon.ico",
       "PackagePath": "staticwebassets\\favicon.ico"
     },
